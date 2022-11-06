@@ -9,25 +9,22 @@ function NavTabs() {
     const [activeTab, setActiveTab] = React.useState(0)
 
     return (
-        <div style={{
-            display: "flex",
-            width: "100vw",
-            justifyContent: "space-between",
-            alignItems: "center",
-            paddingInline: 20,
-            borderBottom: "1px solid #e6e6e6",
-            marginBottom: 60,
-            position: "absolute",
-            bottom: 0,
-            left: "50%",
-            transform: "translateX(-50%)"
-        }}>
-            <Tabs value={activeTab} onChange={(e, v) => setActiveTab(v)} aria-label="icon label tabs example">
-                <Tab icon={<PhoneIcon />} label="Home" />
-                <Tab icon={<FavoriteIcon />} label="FAVORITES" />
-                <Tab icon={<PersonPinIcon />} label="PROFILE" />
-            </Tabs>
-        </div>
+        <>
+            <div className=".horizontal_tabs">
+                <Tabs value={activeTab} onChange={(e, v) => setActiveTab(v)} aria-label="icon label tabs example">
+                    <Tab icon={<PhoneIcon />} label="Home" />
+                    <Tab icon={<FavoriteIcon />} label="FAVORITES" />
+                    <Tab icon={<PersonPinIcon />} label="PROFILE" />
+                </Tabs>
+            </div>
+            <div className=".vertical_tabs">
+                <Tabs value={activeTab} orientation="vertical" onChange={(e, v) => setActiveTab(v)} aria-label="icon label tabs example">
+                    <Tab icon={<PhoneIcon />} label="Home" />
+                    <Tab icon={<FavoriteIcon />} label="FAVORITES" />
+                    <Tab icon={<PersonPinIcon />} label="PROFILE" />
+                </Tabs>
+            </div>
+        </>
     )
 }
 
