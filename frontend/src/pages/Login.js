@@ -37,7 +37,7 @@ const Login = () => {
         </form>
 
         <div id="formFooter">
-          <a className="underlineHover" href="#">Forgot Password?</a>
+          <a className="underlineHover" href="/login" onClick={() => {}}>Forgot Password?</a>
         </div>
 
       </div>
