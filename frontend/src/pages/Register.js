@@ -99,9 +99,7 @@ const Register = () => {
         </form>
 
         <div id="formFooter">
-          <a className="underlineHover" href="/register" onClick={() => {}}>
-            Forgot Password?
-          </a>
+          <a className="underlineHover" href="/register" onClick={() => {}}>Forgot Password?</a>
         </div>
       </div>
     </div>
