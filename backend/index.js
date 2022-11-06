@@ -1,7 +1,7 @@
-import express from "express";
-import bodyParser from "body-parser";
-import userRouter from "./routes/userRoute";
-import postRouter from "./routes/postRoute";
+const express = require("express");
+const bodyParser = require("body-parser");
+const userRouter = require("./routes/userRoute");
+const postRouter = require("./routes/postRoute");
 
 const app = express();
 app.use(bodyParser.json());

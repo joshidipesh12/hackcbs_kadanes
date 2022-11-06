@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const postSchema = mongoose.Schema(
   {
@@ -21,4 +21,7 @@ const postSchema = mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("User", postSchema);
+if (!global.PostTable) {
+  global.PostTable = mongoose.model("Post", postSchema);
+}
+module.exports = global.PostTable;

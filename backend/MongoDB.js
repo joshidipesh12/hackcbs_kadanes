@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
-export default function connect() {
+module.exports = function connect() {
   if (mongoose.connection.readyState != 1) {
     mongoose.connect("");
   }
-}
+};

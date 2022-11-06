@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const userSchema = mongoose.Schema(
   {
@@ -21,6 +21,8 @@ const userSchema = mongoose.Schema(
   }
 );
 
-const UserTable = mongoose.model("User", userSchema);
+if (!global.UserTable) {
+  global.UserTable = mongoose.model("User", userSchema);
+}
 
-export default UserTable;
+module.exports = global.UserTable;

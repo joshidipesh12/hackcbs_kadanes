@@ -1,5 +1,5 @@
-import { Router } from "express";
-import PostTable from "../modals/PostTable";
+const { Router } = require("express");
+const PostTable = require("../modals/PostTable");
 
 const rest = Router();
 
@@ -8,4 +8,4 @@ rest.get("/:id", async (req, res, next) => {
   next();
 });
 
-export default rest;
+module.exports = rest;
