@@ -1,0 +1,128 @@
+{
+  "posts": [
+    {
+      "id": "1234",
+      "user_id": "12",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 0,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1235",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 3,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1236",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 30,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1232",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 30,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1231",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 30,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1239",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 30,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1238",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 30,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "1237",
+      "user_id": "13",
+      "content": {
+        "title": "Ab mja aayega na bidu!",
+        "description": "Its going to be fun now brother."
+      },
+      "likes": 30,
+      "comments": [],
+      "shares": 0,
+      "username": "_jello_world",
+      "name": "Ayushmaan"
+    }
+  ],
+  "users": [
+    {
+      "id": "12",
+      "username": "_jello_world",
+      "email": "jello_world@gmail.com",
+      "name": "Ayushmaan"
+    },
+    {
+      "id": "13",
+      "username": "goody_good_",
+      "email": "goody_good@gmail.com",
+      "name": "Pankaj Tripathi"
+    },
+    {
+      "id": "14",
+      "username": "whatever_",
+      "email": "whatever_bla_bla_bla@gmail.com",
+      "name": "Kriti Kapoor"
+    }
+  ]
+}
