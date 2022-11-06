@@ -9,11 +9,14 @@ import ShareIcon from "@mui/icons-material/Share";
 
 function PostSmall(props) {
   return (
-    <Card sx={{ width: "90vw" }}>
-      <CardHeader title={props.name} subheader={props.username} />
+    <Card sx={{ width: "90vw", padding: "1.5rem" }}>
+      <CardHeader
+        title={props.content.title}
+        subheader={props.content.description}
+      />
       <CardContent>
-        <p>{props.content.title}</p>
-        <p>{props.content.description}</p>
+        <div>{props.name}</div>
+        <div>{props.username}</div>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">

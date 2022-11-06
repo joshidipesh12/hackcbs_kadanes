@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../config.json";
 import PostSmall from "../components/PostSmall";
+import NavTabs from "../components/Tabs";
 
 import "../App.css";
 
@@ -12,6 +13,7 @@ function HomePage() {
           <PostSmall key={item.id} {...item} />
         ))}
       </div>
+      <NavTabs />
     </>
   );
 }
